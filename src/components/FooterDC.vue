@@ -2,6 +2,7 @@
 <footer>
 <FooterHead />
 <FooterNav />
+<FooterSocial />
 </footer>
 </template>
 
@@ -9,11 +10,13 @@
 /* eslint-disable */
 import FooterHead from './FooterHead.vue'
 import FooterNav from './FooterNav.vue'
+import FooterSocial from './FooterSocial.vue'
 export default {
 name: 'FooterDC',
 components: {
    FooterHead,
-   FooterNav
+   FooterNav,
+   FooterSocial
   }
 }
 </script>

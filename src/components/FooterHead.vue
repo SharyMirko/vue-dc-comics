@@ -2,7 +2,7 @@
   <div class="content">
       <div class="container">
           <ul>
-              <li class="obj-fit" v-for="(obj, i) in nav" :key="i"><img :src="obj.img" :alt="obj.text"><a :href="obj.link">{{ obj.text }}</a></li>
+              <li class="obj-fit" v-for="(obj, i) in nav" :key="i"><img :src="obj.img" :class="{lol: obj.shop}" :alt="obj.text"><a :href="obj.link">{{ obj.text }}</a></li>
           </ul>
       </div>
   </div>
@@ -39,7 +39,8 @@ data () {
             {
                 link: '#',
                 img: shop,
-                text: 'comic shop locator'
+                text: 'comic shop locator',
+                shop: true
             },
             {
                 link: '#',
@@ -55,10 +56,14 @@ data () {
 <style scoped lang="scss">
 @import '../assets/styles/partials/_variables.scss';
 
+.lol {
+    height: calc(3rem + 15px);
+}
+
 ul {
     display: flex;
     justify-content: center;   
-    padding: 2rem 0; 
+    padding: 1rem 0; 
 }
 
 li {
