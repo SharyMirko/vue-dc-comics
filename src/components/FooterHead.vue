@@ -23,22 +23,22 @@ data () {
             {
                 link: '#',
                 img: '../assets/img/buy-comics-merchandise.png',
-                text: 'mercahandise'
+                text: 'dc mercahandise'
             },
             {
                 link: '#',
-                img: 'link',
-                text: 'ddsfd'
+                img: '../assets/img/buy-comics-subscriptions.png',
+                text: 'subscription'
             },
             {
                 link: '#',
-                img: 'link',
-                text: 'ddsfd'
+                img: '../assets/img/buy-comics-shop-locator.png',
+                text: 'comic shop locator'
             },
             {
                 link: '#',
-                img: 'link',
-                text: 'ddsfd'
+                img: '../assets/img/buy-dc-power-visa.svg',
+                text: 'dc power visa'
             },
         ]
     }
@@ -48,6 +48,10 @@ data () {
 
 <style scoped lang="scss">
 @import '../assets/styles/partials/_variables.scss';
+
+li {
+    display: inline-block;
+}
 .content {
     height: 6rem;
     background-color: $nav-color;
