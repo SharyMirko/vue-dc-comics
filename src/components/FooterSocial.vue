@@ -1,7 +1,8 @@
 <template>
 <div class="content">
       <div class="container">
-          <h1>ora non me va de farlo, lo faccio dopo</h1>
+          <div class="button"></div>
+          <div class="social"></div>
       </div>
   </div>
 </template>
@@ -14,6 +15,16 @@ name: 'FooterSocial'
 }
 </script>
 
-<style>
+<style scoped lang="scss">
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.content {
+    background-color: #303030;
+    height: 7.65rem;
+}
 </style>
