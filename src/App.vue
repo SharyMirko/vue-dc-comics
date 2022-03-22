@@ -2,18 +2,21 @@
   <div id="app">
     <HeaderDC />
     <Content />
+    <FooterDC />
   </div>
 </template>
 
 <script>
 import HeaderDC from './components/HeaderDC.vue'
 import Content from './components/Content.vue'
+import FooterDC from './components/FooterDC.vue'
 
 export default {
   name: 'App',
   components: {
     HeaderDC,
-    Content
+    Content,
+    FooterDC
   }
 }
 </script>

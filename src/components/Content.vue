@@ -1,7 +1,7 @@
 <template>
   <div class="content">
-      <div class="conteiner">
-
+      <div class="container">
+          <p>--> Content goes here </p>
       </div>
   </div>
 </template>
@@ -18,5 +18,10 @@ name: 'Content'
 .content {
     height: 8rem;
     background-color: $content-bg;
+    p {
+        font-size: 2rem;
+        color: #fff;
+        padding-top: 1rem;
+    }
 }
 </style>
