@@ -2,7 +2,7 @@
 <header>
     <div class="container">
         <div class="nav">
-        <img src="../assets/img/dc-logo.png" alt="DC Logo">
+        <img src="@/assets/img/dc-logo.png" alt="DC Logo">
         <ul>
             <li @click="navIndex = index" v-for="(link, index) in nav" :key="index" :class="{active: navIndex == index}"><a :href="link.link">{{ link.text }}</a></li>
         </ul>
