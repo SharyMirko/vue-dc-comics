@@ -55,6 +55,10 @@ margin-right: 1rem;
     padding: .5rem;
     border: 2px solid #0282F9;
     color: #fff;
+    &:hover {
+        border: 2px solid transparent;
+        background-color: #0282F9;
+    }
 }
 
 </style>
