@@ -35,6 +35,9 @@ margin-right: 1rem;
     }
     img {
         margin: 0 .3rem;
+        &:hover {
+            filter: invert(37%) sepia(51%) saturate(4075%) hue-rotate(194deg) brightness(99%) contrast(110%);
+        }
     }
 }
 
