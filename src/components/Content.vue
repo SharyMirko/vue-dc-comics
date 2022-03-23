@@ -153,6 +153,6 @@ font-weight: bold;
     text-align: center;
     text-transform: uppercase;
     position: relative;
-    top: -1.5rem;
+    top: -3.5rem;
 }
 </style>
