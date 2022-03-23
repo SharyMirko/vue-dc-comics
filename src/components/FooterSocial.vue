@@ -2,7 +2,14 @@
 <div class="content">
       <div class="container">
           <div class="button">SING-UP NOW!</div>
-          <div class="social"></div>
+          <div class="social">
+              <span>follow us</span>
+              <img src="../assets/img/footer-facebook.png" alt="facebook">
+              <img src="../assets/img/footer-periscope.png" alt="periscope">
+              <img src="../assets/img/footer-pinterest.png" alt="pintarest">
+              <img src="../assets/img/footer-twitter.png" alt="twitter">
+              <img src="../assets/img/footer-youtube.png" alt="youtube">
+          </div>
       </div>
   </div>
 </template>
@@ -16,6 +23,20 @@ name: 'FooterSocial'
 </script>
 
 <style scoped lang="scss">
+
+.social {
+    display: flex;
+    align-items: center;
+    span {
+        text-transform: uppercase;
+font-weight: bold;
+color: white;
+margin-right: 1rem;
+    }
+    img {
+        margin: 0 .3rem;
+    }
+}
 
 .container {
     display: flex;
