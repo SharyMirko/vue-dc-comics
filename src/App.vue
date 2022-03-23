@@ -7,6 +7,7 @@
 </template>
 
 <script>
+/* eslint-disable */
 import HeaderDC from './components/HeaderDC.vue'
 import Content from './components/Content.vue'
 import FooterDC from './components/FooterDC.vue'
