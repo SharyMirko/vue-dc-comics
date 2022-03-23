@@ -126,14 +126,19 @@ components: {
 .button {
 padding: 0.5rem 1rem;
 background-color: #0282F9;
+border: 2px solid transparent;
 color: #fff;
-width: 150px;
+width: 155px;
 position: relative;
 left: 50%;
 transform: translate(-52%);
 text-align: center;
 margin-top: 4rem;
 font-weight: bold;
+&:hover {
+    background-color: transparent;
+    border: 2px solid #0282F9;
+}
 }
 
 .fullwidth {
